@@ -28,7 +28,8 @@ The dataset contains anonymized customer-level financial features such as:
 
 ### 🔥 Missing Values Heatmap
 
-![Missing Values](https://github.com/bhargavkoushik/AI-Powered-Credit-Risk-Prediction-Project/blob/main/assets/missing_values_heatmap.png)
+![Missing Values](<img width="986" height="669" alt="image" src="https://github.com/user-attachments/assets/6e112475-4950-4537-ba75-af120df27079" />
+)
 
 ---
 
@@ -39,7 +40,8 @@ The dataset contains anonymized customer-level financial features such as:
 
 ### 📉 Correlation Matrix
 
-![Correlation Matrix](https://github.com/bhargavkoushik/AI-Powered-Credit-Risk-Prediction-Project/blob/main/assets/correlation_matrix.png)
+![Correlation Matrix](<img width="1038" height="823" alt="image" src="https://github.com/user-attachments/assets/4e80f43f-cfe8-4d63-8710-67c5d039b039" />
+)
 
 ---
 
@@ -55,7 +57,8 @@ The following models were trained and evaluated:
 
 ### 📊 Accuracy Comparison
 
-![Model Accuracy Comparison](https://github.com/bhargavkoushik/AI-Powered-Credit-Risk-Prediction-Project/blob/main/assets/model_accuracy_comparison.png)
+![Model Accuracy Comparison](<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/30dd13a4-793c-41b6-8f7c-00990ae3cd71" />
+)
 
 ---
 
