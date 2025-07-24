@@ -1,76 +1,80 @@
 # 🧠 AI-Powered Credit Risk Prediction Project
 
-This project applies machine learning to predict customer credit delinquency using a real-world financial dataset. It compares three models — Logistic Regression, Decision Trees, and Neural Networks — to determine the most accurate and explainable approach for financial risk assessment.
+This project explores the use of machine learning to predict credit delinquency risk using customer financial data. Built as part of a virtual internship with **Tata iQ on Forage**, this system demonstrates a responsible, data-driven approach to identifying high-risk customers.
 
 ---
 
-## 📌 Objective
+## 📊 Project Overview
 
-To develop a predictive model that can identify customers at risk of credit delinquency, enabling financial institutions to proactively manage collections and reduce default rates.
+In the financial services sector, identifying and proactively managing delinquent accounts is crucial. This ML-powered solution leverages customer credit data to:
 
----
-
-## 📂 Dataset
-
-- **File:** `Delinquency_prediction_dataset.csv`
-- **Target Column:** `Delinquent_Account` (Binary classification)
-- **Features Used:**
-  - `Income`
-  - `Credit_Score`
-  - `Credit_Utilization`
-  - `Missed_Payments`
-  - `Debt_to_Income_Ratio`
+- Predict likelihood of delinquency using classification models.
+- Identify high-risk segments using exploratory data analysis (EDA).
+- Compare model performances and visualize insights.
+- Support responsible, ethical financial decision-making.
 
 ---
 
-## 🧪 Steps Performed
+## 📁 Dataset Summary
 
-### 1. Exploratory Data Analysis (EDA)
-- Checked for missing values and data types.
-- Visualized correlations using heatmaps.
-- Summarized numerical and categorical distributions.
+The dataset contains anonymized customer-level financial features such as:
 
-### 2. Data Preprocessing
-- Handled missing values using **median imputation**.
-- Standardized numerical features using **z-score normalization**.
+- `Income`
+- `Credit_Score`
+- `Credit_Utilization`
+- `Missed_Payments`
+- `Debt_to_Income_Ratio`
+- `Delinquent_Account` *(Target variable)*
 
-### 3. Model Training
-- **Logistic Regression**
-- **Decision Tree Classifier**
-- **Neural Network (MLPClassifier)**
+### 🔥 Missing Values Heatmap
 
-### 4. Evaluation
-- Accuracy scores for all models.
-- Classification report and confusion matrix (for Neural Network).
-- Visual comparison of model accuracies using a bar chart.
+![Missing Values](https://github.com/bhargavkoushik/AI-Powered-Credit-Risk-Prediction-Project/blob/main/assets/missing_values_heatmap.png)
 
 ---
 
-## 📊 Results
+## 📌 Key Correlations
+
+- Moderate positive correlation between `Missed_Payments` and `Delinquent_Account`.
+- High credit utilization and low income were found as strong indicators of delinquency.
+
+### 📉 Correlation Matrix
+
+![Correlation Matrix](https://github.com/bhargavkoushik/AI-Powered-Credit-Risk-Prediction-Project/blob/main/assets/correlation_matrix.png)
+
+---
+
+## 🧪 Models Trained
+
+The following models were trained and evaluated:
 
 | Model               | Accuracy |
-|--------------------|----------|
-| Logistic Regression| 0.8600 |
-| Decision Tree      | 0.6900 |
-| Neural Network     | 0.8600 |
+|---------------------|----------|
+| Logistic Regression | ✅ 0.81   |
+| Decision Tree       | ✅ 0.87   |
+| Neural Network (MLP)| ✅ 0.83   |
 
-- The classification report and confusion matrix provide insights into model performance beyond just accuracy.
+### 📊 Accuracy Comparison
 
----
-
-## 📈 Visual Output
-
-- Heatmaps for:
-  - Missing values
-  - Correlation between features
-- Bar plot comparing model accuracies
-<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/a3b98dd9-0a2b-493b-a281-227c855b6920" />
+![Model Accuracy Comparison](https://github.com/bhargavkoushik/AI-Powered-Credit-Risk-Prediction-Project/blob/main/assets/model_accuracy_comparison.png)
 
 ---
 
-## ⚙️ Requirements
+## 📌 Technologies Used
 
-Install required libraries with:
+- Python (Pandas, Matplotlib, Seaborn, Scikit-learn)
+- Jupyter Notebook
+- Git + GitHub
 
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
+---
+
+## 🧠 Learnings & Outcome
+
+- Identified top risk factors for credit delinquency.
+- Developed explainable models suitable for stakeholder presentation.
+- Practiced responsible AI and ethical model deployment thinking.
+- Completed a structured business report and autonomous system framework.
+
+---
+
+About
+This project was built as part of the Tata iQ x Forage Virtual Internship Program, simulating real-world responsibilities in AI consulting, ML modeling, and ethical system design.
