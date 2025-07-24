@@ -27,9 +27,7 @@ The dataset contains anonymized customer-level financial features such as:
 - `Delinquent_Account` *(Target variable)*
 
 ### 🔥 Missing Values Heatmap
-
-![Missing Values](<img width="986" height="669" alt="image" src="https://github.com/user-attachments/assets/6e112475-4950-4537-ba75-af120df27079" />
-)
+<img width="986" height="669" alt="image" src="https://github.com/user-attachments/assets/6e112475-4950-4537-ba75-af120df27079" />
 
 ---
 
@@ -40,8 +38,8 @@ The dataset contains anonymized customer-level financial features such as:
 
 ### 📉 Correlation Matrix
 
-![Correlation Matrix](<img width="1038" height="823" alt="image" src="https://github.com/user-attachments/assets/4e80f43f-cfe8-4d63-8710-67c5d039b039" />
-)
+<img width="1038" height="823" alt="image" src="https://github.com/user-attachments/assets/4e80f43f-cfe8-4d63-8710-67c5d039b039" />
+
 
 ---
 
@@ -57,8 +55,8 @@ The following models were trained and evaluated:
 
 ### 📊 Accuracy Comparison
 
-![Model Accuracy Comparison](<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/30dd13a4-793c-41b6-8f7c-00990ae3cd71" />
-)
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/30dd13a4-793c-41b6-8f7c-00990ae3cd71" />
+
 
 ---
 
